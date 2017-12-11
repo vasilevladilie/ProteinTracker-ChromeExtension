@@ -1,3 +1,6 @@
+var userX = prompt("Tell us your name please: ")
+var userY = document.getElementbyId('us');
+var userY.value = userX;
 $(function () {
     chrome.storage.sync.get('goal', function (items) {
         $('#goal').val(items.goal);
