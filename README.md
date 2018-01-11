@@ -22,5 +22,10 @@ In order to test this chrome extension follow the steps below:
 
 ## #3: an icon will appear with the extensions tab
 <img align="right" width="300" src="assets/icon.jpg" alt="clone this repository" />
-
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 ### Enjoy!
