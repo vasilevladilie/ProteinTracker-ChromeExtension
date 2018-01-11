@@ -14,10 +14,12 @@ In order to test this chrome extension follow the steps below:
 
 <br/>
 <br/>
+
 ## #2: add the project folder to extensions
 <img aling="left" width="300" src="assets/load.jpg" alt="clone this repository" />
 <br/>
 <br/>
+
 ## #3: an icon will appear with the extensions tab
 <img align="right" width="300" src="assets/icon.jpg" alt="clone this repository" />
 
