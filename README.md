@@ -10,11 +10,14 @@ This will help the user to count daily protein that must be fullfiled.
 In order to test this chrome extension follow the steps below:
 
 #1: activate developer mode in extension tab
-<img align="right" width="300" src="assets/developer.jpg" alt="clone this repository" />
+<img aling="left" width="300" src="assets/developer.jpg" alt="clone this repository" />
 
+<br/>
+<br/>
 #2: add the project folder to extensions
-<img align="right" width="300" src="assets/load.jpg" alt="clone this repository" />
-
+<img aling="left" width="300" src="assets/load.jpg" alt="clone this repository" />
+<br/>
+<br/>
 #3: an icon will appear with the extensions tab
 <img align="right" width="300" src="assets/icon.jpg" alt="clone this repository" />
 
