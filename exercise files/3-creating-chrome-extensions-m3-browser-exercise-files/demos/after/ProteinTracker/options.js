@@ -13,12 +13,12 @@ $(function () {
     });
 
     $('#reset').click(function () {
-        chrome.storage.sync.set({ 'total' : 0, 'goal' : 0 }, function () {
+        chrome.storage.sync.set({ 'total': 0 }, function () {
             var opt = {
                 type: "basic",
                 title: "Total reset!",
-                message: "Total & Goal has been reset back to 0!",
-                iconUrl: "img/icon2.png"
+                message: "Total has been reset back to 0.",
+                iconUrl: "icon.png"
             }
 
             chrome.notifications.create('reset', opt, function () { });
