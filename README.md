@@ -1,5 +1,6 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
-<img aling="left" width="300" src="ninja.png" alt="ninja" />
+<br/>
+<img aling="middle" width="300" src="ninja.png" alt="ninja" />
 # chrome-extension
 
 ### This is a simple chrome extension.
