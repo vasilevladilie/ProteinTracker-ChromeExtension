@@ -1,3 +1,11 @@
+
+var pr = document.getElementById('prompt');
+var p = prompt('Enter your name here please: ');
+pr.value = p;
+
+
+
+
 $(function () {
     chrome.storage.sync.get('goal', function (items) {
         $('#goal').val(items.goal);
