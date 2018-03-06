@@ -7,7 +7,7 @@
 
 ![screenshot](chrome.gif)
 
-For tutorial about how you can contribute to the project please read the [contributeTUTORIAL.md](tutorial for contributing to git)
+For tutorial about how you can contribute to the project please read the [contributeTUTORIAL.md](contributeTUTORIAL)
 
 We made this with Html, css, json, javascript and some adobe photoshop for icon
 This will help the user to count daily protein that must be fullfiled.
