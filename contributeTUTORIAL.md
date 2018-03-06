@@ -14,7 +14,7 @@ If you don't have git on your machine, [ install it ]( https://help.github.com/a
 
 ## Fork this repository
 
-<img align="right" width="300" src="assets/fork.png" alt="fork this repository" />
+<img align="right" width="300" src="https://raw.githubusercontent.com/bytao7mao/recipe-organizer/master/assets/fork.png" alt="fork this repository" />
 
 Fork this repo by clicking on the fork button on the top of this page.
 This will create a copy of this repository in your account.
@@ -32,7 +32,7 @@ git clone "url you just copied"
 ```
 where "url you just copied" (without the quote marks) is the url to this repository. See the previous steps to obtain the url.
 
-<img align="right" width="300" src="assets/copy-to-clipboard.png" alt="copy URL to clipboard" />
+<img align="right" width="300" src="https://raw.githubusercontent.com/bytao7mao/recipe-organizer/master/assets/copy-to-clipboard.png" alt="copy URL to clipboard" />
 
 For example:
 ```
@@ -84,12 +84,12 @@ replacing `<add-your-name>` with the name of the branch you created earlier.
 
 If you go to your repository on GitHub, you'll see a  `Compare & pull request` button.  Click on that button.
 
-<img style="float: right;" src="assets/compare-and-pull.png" alt="create a pull request" />
+<img style="float: right;" src="https://raw.githubusercontent.com/bytao7mao/recipe-organizer/master/assets/compare-and-pull.png" alt="create a pull request" />
 
 Now submit the pull request.
 
-<img style="float: right;" src="assets/submit-pull.png" alt="submit pull request" />
+<img style="float: right;" src="https://raw.githubusercontent.com/bytao7mao/recipe-organizer/master/assets/submit-pull.png" alt="submit pull request" />
 
 Soon I'll be merging all your changes into the master branch of this project. You will get a notification email once the changes have been merged.
 
-<img align="middle" width="700" src="https://octodex.github.com/justicetocat" alt="github hipster" />
+<img align="middle" width="700" src="https://raw.githubusercontent.com/bytao7mao/recipe-organizer/master/assets/hipster.jpg" alt="github hipster" />
