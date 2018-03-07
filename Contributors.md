@@ -4,3 +4,4 @@
 - [Itua Akhator] (https://github.com/iakhator)
 - [Kevin Nielsen]
 (https://github.com/DesignBySite)
+- [Dennis Knie] (https://github.com/DennisKnie)
