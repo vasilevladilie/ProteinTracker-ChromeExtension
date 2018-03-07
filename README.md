@@ -10,7 +10,7 @@
 ![screenshot](chrome.gif)
 
 ### For tutorial about how you can contribute to the project please read the:
-
+### [contributeTUTORIAL.md](contributeTUTORIAL.md)
 [1]: https://github.com/WalkInProgress/ProteinTracker-ChromeExtension/blob/master/contributeTUTORIAL.md
 
 We made this with Html, css, json, javascript and some adobe photoshop for icon
