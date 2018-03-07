@@ -2,3 +2,5 @@
 - [Vlad Ilie] (https://github.com/vasilevladilie)
 - [Ayoub Abed] (https://github.com/Skobraf)
 - [Itua Akhator] (https://github.com/iakhator)
+- [Kevin Nielsen]
+(https://github.com/DesignBySite)
