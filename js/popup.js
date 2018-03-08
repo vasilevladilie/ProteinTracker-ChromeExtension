@@ -6,14 +6,14 @@ $(() => {
     });
 
 
-    $('#addAmount').click(function () {
+    $('#addAmount').click(() => {
         chrome.storage.sync.get(['total','goal'], (items) => {
-            const newTotal = 0;
+            let newTotal = 0;
             if (items.total) {
                 newTotal += parseInt(items.total);
             }
 
-            const amount = $('#amount').val();
+            let amount = $('#amount').val();
             if (amount) {
                 newTotal += parseInt(amount);
             }
