@@ -1,6 +1,7 @@
 #container {
-	width:600px;
-	margin:100px auto;
+	max-width:350px;
+	margin:20px;
+	text-align: center;
 }
 #t {
   color:green;
@@ -11,5 +12,5 @@
 
 
 h1 {
-  color:green;
+  color:#17a2b8;
 }

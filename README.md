@@ -9,7 +9,8 @@
 ![screenshot](chrome.gif)
 
 ### For tutorial about how you can contribute to the project please read the:
-## [contributeTUTORIAL.md](contributeTUTORIAL)
+### [contributeTUTORIAL.md](contributeTUTORIAL.md)
+[1]: https://github.com/WalkInProgress/ProteinTracker-ChromeExtension/blob/master/contributeTUTORIAL.md
 
 We made this with Html, css, json, javascript and some adobe photoshop for icon
 This will help the user to count daily protein that must be fullfiled.
@@ -31,14 +32,18 @@ In order to test this chrome extension follow the steps below:
 <img align="left" width="300" src="assets/icon.jpg" alt="clone this repository" />
 <br/>
 <br/>
+
 <br/>
 <br/>
-<br/>
-<br/>
+
 ### Enjoy!
 
+
+## Contributors :octocat:
+
+To see a list of all contributors see [here](https://github.com/WalkInProgress/ProteinTracker-ChromeExtension/blob/master/Contributors.md)
 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details

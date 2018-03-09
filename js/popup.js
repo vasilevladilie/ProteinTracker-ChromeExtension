@@ -1,18 +1,19 @@
-$(function () {
-    chrome.storage.sync.get(['total','goal'], function (items) {
+
+$(() => {
+    chrome.storage.sync.get(['total','goal'], (items) => {
         $('#total').text(items.total);
         $('#goal').text(items.goal);
     });
 
 
-    $('#addAmount').click(function () {
-        chrome.storage.sync.get(['total','goal'], function (items) {
-            var newTotal = 0;
+    $('#addAmount').click(() => {
+        chrome.storage.sync.get(['total','goal'], (items) => {
+            let newTotal = 0;
             if (items.total) {
                 newTotal += parseInt(items.total);
             }
 
-            var amount = $('#amount').val();
+            let amount = $('#amount').val();
             if (amount) {
                 newTotal += parseInt(amount);
             }
@@ -22,14 +23,14 @@ $(function () {
             $('#amount').val('');
 
             if (newTotal >= items.goal) {
-                var opt = {
+                const opt = {
                     type: "basic",
                     title: "Goal reached!",
                     message: "You reached your goal of " + items.goal + "!",
                     iconUrl: "img/icon2.png"
                 }
 
-                chrome.notifications.create('goalReached', opt, function () { });
+                chrome.notifications.create('goalReached', opt, () => { });
             }
         });
     });
