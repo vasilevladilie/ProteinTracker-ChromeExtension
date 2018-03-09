@@ -40,6 +40,10 @@ In order to test this chrome extension follow the steps below:
 ### Enjoy!
 
 
+## Contributors :octocat:
+
+To see a list of all contributors see [here](https://github.com/WalkInProgress/ProteinTracker-ChromeExtension/blob/master/Contributors.md)
+
 
 ## License
 
