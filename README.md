@@ -1,4 +1,3 @@
-
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 [![Build status](https://ci.appveyor.com/api/projects/status/pjxh5g91jpbh7t84?svg=true)](https://ci.appveyor.com/project/tygerbytes/resourcefitness)
 <br/>
@@ -33,10 +32,8 @@ In order to test this chrome extension follow the steps below:
 <img align="left" width="300" src="assets/icon.jpg" alt="clone this repository" />
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
+
+
 ### Enjoy!
 
 
