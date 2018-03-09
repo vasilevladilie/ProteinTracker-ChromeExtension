@@ -33,6 +33,8 @@ In order to test this chrome extension follow the steps below:
 <br/>
 <br/>
 
+<br/>
+<br/>
 
 ### Enjoy!
 
