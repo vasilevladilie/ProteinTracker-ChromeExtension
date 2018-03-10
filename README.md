@@ -6,7 +6,8 @@
 
 ### This is a simple chrome extension.
 
-![screenshot](chrome.gif)
+![](chrome.gif =300x300)
+
 
 ### For tutorial about how you can contribute to the project please read the:
 ### [contributeTUTORIAL.md](contributeTUTORIAL.md)
