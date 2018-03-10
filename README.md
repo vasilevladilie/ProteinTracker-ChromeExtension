@@ -6,7 +6,7 @@
 
 ### This is a simple chrome extension.
 
-![screenshot](chrome.gif =300x300)
+![screenshot](chrome.gif){:height="50%" width="50%"}
 
 
 ### For tutorial about how you can contribute to the project please read the:
