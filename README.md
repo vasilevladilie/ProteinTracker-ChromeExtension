@@ -6,8 +6,12 @@
 
 ### This is a simple chrome extension.
 
-![screenshot](chrome.gif){:height="50%" width="50%"}
-
+![screenshot](chrome.gif)
+ {
+  width: 50%;
+  border: none;
+  background: none;
+}
 
 ### For tutorial about how you can contribute to the project please read the:
 ### [contributeTUTORIAL.md](contributeTUTORIAL.md)
