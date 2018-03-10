@@ -6,12 +6,9 @@
 
 ### This is a simple chrome extension.
 
-![screenshot](chrome.gif)
- {
-  width: 50%;
-  border: none;
-  background: none;
-}
+<img src="chrome.gif" width="200">
+
+
 
 ### For tutorial about how you can contribute to the project please read the:
 ### [contributeTUTORIAL.md](contributeTUTORIAL.md)
