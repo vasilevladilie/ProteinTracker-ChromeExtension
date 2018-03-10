@@ -5,6 +5,7 @@
         <title>Protein Tracker</title>
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
         <link rel="stylesheet" type="text/css" href="css/popup.css">
+        <link rel="stylesheet" type="text/css" href="css/progressbar.css">
     </head>
     <body>
         <div id="container">
@@ -12,12 +13,18 @@
             <h2 id="t">Total: <span id="total">0</span></h2>
             <h2 id="g">Goal: <span id="goal">0</span></h2>
             <h3>Enter amount:</h3>
-
+            <div id="progressBar">
+              <div id="proteinIntake">
+                <p id="progressComplete">
+                </p>
+              </div>
+            </div>
             <input id="amount" type="text" />
             <input id="addAmount" type="submit" value="Add Protein" />
         </div>
 
-        <script src="js/jquery-1.10.2.js"></script>
+        <script src="js/jquery-3.3.1.min.js"></script>
         <script src="js/popup.js"></script>
+        <script src="js/progressbar.js"></script>
     </body>
 </html>

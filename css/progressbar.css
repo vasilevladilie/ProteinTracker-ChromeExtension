@@ -1,0 +1,23 @@
+#progressBar
+{
+  width: 100%;
+  background-color: #ddd;
+}
+#proteinIntake
+{
+  width: 2%;
+  height: 30px;
+  background-color: #4CAF50;
+}
+#progressComplete
+{
+  position:absolute;
+  width:auto;
+  height:auto;
+  left: 40%;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  color: #FF4500;
+  z-index: 1;
+}
