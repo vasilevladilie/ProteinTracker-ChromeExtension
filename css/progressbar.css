@@ -5,19 +5,21 @@
 }
 #proteinIntake
 {
-  width: 2%;
-  height: 30px;
-  background-color: #4CAF50;
+  width: 1%;
+  height: 3.5px;
+  background-color: #ded541;
 }
 #progressComplete
 {
-  position:absolute;
-  width:auto;
-  height:auto;
-  left: 40%;
+  position: absolute;
+  width: auto;
+  height: auto;
+  left: 49%;
   right: 0;
-  margin-left: auto;
-  margin-right: auto;
-  color: #FF4500;
+  top:auto;
+  bottom: 31.8%;
+  align: center;
+  margin: auto;
+  color: green;
   z-index: 1;
 }
