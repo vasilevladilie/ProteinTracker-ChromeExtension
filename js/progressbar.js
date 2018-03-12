@@ -51,31 +51,34 @@ function displayProgress ( iProteins )
         }
         if ( true == bNoError )
         {
-          var iWidth  = 1;
           var iCurrentGoal = 0;
           iCurrentGoal = parseInt ( objQuery.getGoal ( ) );
-          var iIntake = computeProgress ( iProteins, iCurrentGoal );
-          if ( 100 > iWidth )
-          {
-            /*
-            * \desc Use the number of proteins
-                    to increase the progress.
-            */
-            iWidth = iIntake;
-            objElem.style.width = iWidth + '%';
-            $("#progressComplete").text ( objElem.style.width );
-          }
-          if ( 100 <= iWidth )
-          {
-            /*
-            * \desc Stop changing the width, maybe show
-            *       a message on the progress bar.
-            */
-            $('#progressComplete').text("Complete");
-          }
+          updateProgress ( objElem, iProteins, iCurrentGoal );
         }
       }
     );
+}
+function updateProgress ( oProteinIntakeElem, iProteins, iCurrentGoal )
+{
+  var iIntake = computeProgress ( iProteins, iCurrentGoal );
+  if ( 100 > iIntake )
+  {
+    /*
+    * \desc Use the number of proteins
+            to increase the progress.
+    */
+    oProteinIntakeElem.style.width = iIntake + '%';
+    $("#progressComplete").text ( oProteinIntakeElem.style.width );
+  }
+  else
+  {
+    /*
+    * \desc Stop changing the width, maybe show
+    *       a message on the progress bar.
+    */
+    oProteinIntakeElem.style.width = "100%";
+    $('#progressComplete').text("Complete");
+  }
 }
 function computeProgress ( iAmount, iGoal )
 {
@@ -112,16 +115,16 @@ $( function ( )
     function ( objItems )
     {
       var bHasError = false;
-      var oProteinIntakeElem = null;
+      var objElem   = null;
       if ( chrome.runtime.lastError )
       {
         bHasError = true;
       }
       if ( false == bHasError )
       {
-        oProteinIntakeElem = document.getElementById ( "proteinIntake" );
+        objElem = document.getElementById ( "proteinIntake" );
       }
-      if ( null === oProteinIntakeElem )
+      if ( null === objElem )
       {
         bHasError = true;
       }
@@ -137,22 +140,12 @@ $( function ( )
       {
         objQuery.setTotal ( objItems.total );
         objQuery.setGoal  ( objItems.goal );
-        var iIntake = computeProgress
+        updateProgress
         (
+          objElem,
           objQuery.getTotal ( ),
           objQuery.getGoal ( )
         );
-        if ( 100 >= iIntake )
-        {
-          oProteinIntakeElem.style.width = iIntake + '%';
-          $("#progressComplete").text ( oProteinIntakeElem.style.width );
-        }
-        else
-        {
-          oProteinIntakeElem.style.width = "100%";
-
-          $("#progressComplete").text ( "Complete" );
-        }
       }
       else
       {
