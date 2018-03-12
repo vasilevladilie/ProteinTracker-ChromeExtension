@@ -1,4 +1,3 @@
-
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 [![Build status](https://ci.appveyor.com/api/projects/status/pjxh5g91jpbh7t84?svg=true)](https://ci.appveyor.com/project/tygerbytes/resourcefitness)
 <br/>
@@ -7,7 +6,9 @@
 
 ### This is a simple chrome extension.
 
-![screenshot](chrome.gif)
+<img src="newGif.gif" width="800">
+
+
 
 ### For tutorial about how you can contribute to the project please read the:
 ### [contributeTUTORIAL.md](contributeTUTORIAL.md)
@@ -33,12 +34,16 @@ In order to test this chrome extension follow the steps below:
 <img align="left" width="300" src="assets/icon.jpg" alt="clone this repository" />
 <br/>
 <br/>
+
 <br/>
 <br/>
-<br/>
-<br/>
+
 ### Enjoy!
 
+
+## Contributors :octocat:
+
+To see a list of all contributors see [here](https://github.com/WalkInProgress/ProteinTracker-ChromeExtension/blob/master/Contributors.md)
 
 
 ## License
