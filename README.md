@@ -6,7 +6,7 @@
 
 ### This is a simple chrome extension.
 
-<img src="newGif.gif" width="600">
+<img src="newGif.gif" width="800">
 
 
 
