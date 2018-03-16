@@ -1,47 +1,77 @@
 <!doctype html>
 <html>
 <!--actual WEB PAGE page for the extension-->
-    <head>
-        <title>Protein Tracker Options</title>
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-        <link rel="stylesheet" type="text/css" href="css/options.css">
-    </head>
-    <body>
+<head>
+    <title>Protein Tracker Options</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/options.css">
+</head>
+
+<body class="bodyColor">
 
 
-       <div class="jumbotron">
-        <img src="images/photo-1485182708500-e8f1f318ba72.jpeg">
-        <h1 class="display-4">Protein Tracker Options</h1>
+    <div class="jumbotron">
+        <img src="img/options_photo.jpeg">
+        <h1 class="display-4">Personal Protein Tracker</h1>
         <p class="lead">This is the protein tracker that you need in order to track your daily protein needs.</p>
 
         <hr class="my-4">
 
         <form>
 
-          <div class="form-group">
-            <label for="goal">Protein Goal per day</label>
+            <div class="form-group">
+                <label for="goal" class="perInfo">Personal Information</label>
+                <table>
+                    <tr>
+                        <td>Name:</td>
+                        <td><input type='text' value='YourName' id='prompt' disabled></td>
+                    </tr>
+                    <tr>
+                        <td>Age:</td>
+                        <td><input type='number' value='YourAge'></td>
+                    </tr>
+                    <tr>
+                        <td>Height:</td>
+                        <td><input type='number' value='Height'></td>
+                    </tr>
+                    <tr>
+                        <td>Weight:</td>
+                        <td><input type='number' value='Weight'></td>
+                    </tr>
+                    <tr>
+                        <td>Meals Per Day:</td>
+                        <td><input type='number' value='MealsPerDay'></td>
+                    </tr>
+                </table>
+                <form action="">
+                    <input type="radio" name="gender" value="male">Male<br>
+                    <input type="radio" name="gender" value="female">Female<br>
+                </form>
+                <label for="goal">Protein Goal per day</label>
+                <input id="goal" class="form-control" aria-describedby="emailHelp" placeholder="type your goal protein in grams" type="text" />
+                <small id="emailHelp" class="form-text text-muted">Fullfill your daily dose of protein daily !</small>
+            </div>
+            <!--col GOAL ends-->
 
-            <input type='text' value='YourName' id='prompt' disabled>
-            <input id="goal" class="form-control" aria-describedby="emailHelp" placeholder="type your goal protein in grams" type="text" />
-            <small id="emailHelp" class="form-text text-muted">Fullfill your daily dose of protein daily !</small>
-          </div><!--col GOAL ends-->
-
-          <div class="form-group">
-        <input id="save" class="btn btn-outline-warning" type="submit" value="Save" />
-        <input id="reset" class="btn btn-outline-danger" type="submit" value="Reset Total" />
-      </div><!--form group-->
-    </form>
-    </div><!--jumbotron-->
+            <div class="form-group">
+                <input id="save" class="button btn btn-outline-warning" type="submit" value="Save" />
+                <input id="reset" class="button btn btn-outline-danger" type="submit" value="Reset Total" />
+            </div>
+            <!--form group-->
+        </form>
+    </div>
+    <!--jumbotron-->
 
 
-        <footer>
-         <p>Icon made by [www.Freepik.com] from www.flaticon.com</p>
-         </footer>
+    <footer>
+        <p>Copyright (c) 2018 walk in progress</p>
+    </footer>
 
 
 
 
-         <script src="js/jquery-1.10.2.js"></script>
-         <script src="js/options.js"></script>
-    </body>
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/options.js"></script>
+</body>
+
 </html>
