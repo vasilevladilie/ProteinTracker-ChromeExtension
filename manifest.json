@@ -3,7 +3,7 @@
 
 	"name": "Protein Tracker",
 	"description": "Tracks a user's protein totals throughout the day.",
-	"version": "v.0.3.2(1)",
+	"version": "v.0.4.0(1)",
 
 	"browser_action": {
 		"default_icon":"img/icon.png",
