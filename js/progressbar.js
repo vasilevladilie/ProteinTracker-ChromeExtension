@@ -53,10 +53,30 @@ function displayProgress ( iProteins )
         {
           var iCurrentGoal = 0;
           iCurrentGoal = parseInt ( objQuery.getGoal ( ) );
-          updateProgress ( objElem, iProteins, iCurrentGoal );
+          if ( true == checkGoal ( objElem, iCurrentGoal ) )
+          {
+            console.log ( "CurrentGoal: " + iCurrentGoal );
+            updateProgress ( objElem, iProteins, iCurrentGoal );
+          }
         }
       }
     );
+}
+function checkGoal ( oProteinIntakeElem, iCurrentGoal )
+{
+  var bHasAGoal = true;
+  if ( 0 >= iCurrentGoal )
+  {
+    /*
+    * \desc Check the goal, if the goal
+    *       is smaller the 0 then do not update
+    *       otherwise do it.
+    */
+    oProteinIntakeElem.style.width = 0 + '%';
+    $("#progressComplete").text ( oProteinIntakeElem.style.width );
+    bHasAGoal = false;
+  }
+  return bHasAGoal;
 }
 function updateProgress ( oProteinIntakeElem, iProteins, iCurrentGoal )
 {
@@ -86,7 +106,10 @@ function computeProgress ( iAmount, iGoal )
   * \desc How much from the 100% progress has been made.
   */
   var iProgress = 0;
-  iProgress = ( parseInt(iAmount) * 100 )/ parseInt ( iGoal );
+  if ( 0 != iGoal )
+  {
+    iProgress = ( parseInt(iAmount) * 100 )/ parseInt ( iGoal );
+  }
   return iProgress;
 }
 function resetProgress ( )
@@ -140,12 +163,25 @@ $( function ( )
       {
         objQuery.setTotal ( objItems.total );
         objQuery.setGoal  ( objItems.goal );
-        updateProgress
-        (
-          objElem,
-          objQuery.getTotal ( ),
-          objQuery.getGoal ( )
-        );
+        elemPBar = document.getElementById ( "progressBar" )
+        if ( 0 < objQuery.getGoal ( ) )
+        {
+          /*
+          * \desc Only if the goal is set and is
+                  reacheable unhide the bar start progressing.
+          */
+          elemPBar.style.visibility = "visible";
+          updateProgress
+          (
+            objElem,
+            objQuery.getTotal ( ),
+            objQuery.getGoal ( )
+          );
+        }
+        else
+        {
+          elemPBar.style.visibility = "hidden";
+        }
       }
       else
       {
