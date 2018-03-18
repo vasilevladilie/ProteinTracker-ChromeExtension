@@ -24,31 +24,31 @@
                 <table>
                     <tr>
                         <td>Name:</td>
-                        <td><input type='text' value='YourName' id='prompt' disabled></td>
+                        <td><input id="p_name" type='text' placeholder="Your name"/></td>
                     </tr>
                     <tr>
                         <td>Age:</td>
-                        <td><input type='number' value='YourAge'></td>
+                        <td><input id="p_age" type='number' placeholder='Age'/></td>
                     </tr>
                     <tr>
                         <td>Height:</td>
-                        <td><input type='number' value='Height'></td>
+                        <td><input id="p_height" type='number' placeholder='Height'/></td>
                     </tr>
                     <tr>
                         <td>Weight:</td>
-                        <td><input type='number' value='Weight'></td>
+                        <td><input id="p_weight" type='number' placeholder='Weight'></td>
                     </tr>
                     <tr>
                         <td>Meals Per Day:</td>
-                        <td><input type='number' value='MealsPerDay'></td>
+                        <td><input id="mealsperday" type='number' placeholder='Meals per day'/></td>
                     </tr>
                 </table>
                 <form action="">
-                    <input type="radio" name="gender" value="male">Male<br>
-                    <input type="radio" name="gender" value="female">Female<br>
+                    <input id="gendermale" type="radio" name="gender" value="male"/>Male<br>
+                    <input id="genderfemale" type="radio" name="gender" value="female"/>Female<br>
                 </form>
                 <label for="goal">Protein Goal per day</label>
-                <input id="goal" class="form-control" aria-describedby="emailHelp" placeholder="type your goal protein in grams" type="text" />
+                <input id="goal" class="form-control" aria-describedby="emailHelp" placeholder="Type your goal: protein in grams" type="text" />
                 <small id="emailHelp" class="form-text text-muted">Fullfill your daily dose of protein daily !</small>
             </div>
             <!--col GOAL ends-->

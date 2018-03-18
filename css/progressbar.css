@@ -1,10 +1,11 @@
 #progressBar
 {
   position:absolute;
-  width: 63%;
-  bottom: 10.08%;
+  width: 62.7%;
+  bottom: 7.59%;
   left:7.3%;
   background-color: #ddd;
+  visibility: visible;
 }
 #proteinIntake
 {
@@ -17,11 +18,11 @@
   position: absolute;
   width: auto;
   height: auto;
-  left: 99%;
+  left: 0%;
   right: auto;
   top:auto;
   bottom: 1%;
-  text-align: right;
+  text-align: left;
   margin: auto;
   color: #DAA520;
   z-index: 1;
