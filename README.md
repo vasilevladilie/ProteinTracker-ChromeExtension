@@ -7,8 +7,8 @@
 ### This is a simple chrome extension.
 
 ## options page
-<img aling="left" width="300" src="assets/optionsPage.jpg" alt="options page" />
-<img aling="right" width="300" src="assets/popupPage.jpg" alt="popup page" />
+<img aling="left" width="300" src="assets/optionsPart.jpg" alt="options page" />
+<img aling="right" width="300" src="assets/popupPart.jpg" alt="popup page" />
 
 <img src="newGif.gif" width="800">
 
