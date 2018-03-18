@@ -6,6 +6,10 @@
 
 ### This is a simple chrome extension.
 
+## options page
+<img aling="left" width="300" src="optionsPage.jpg" alt="options page" />
+<img aling="right" width="300" src="popupPage.jpg" alt="popup page" />
+
 <img src="newGif.gif" width="800">
 
 
