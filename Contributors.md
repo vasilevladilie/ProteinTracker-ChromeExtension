@@ -5,3 +5,4 @@
 - [Kevin Nielsen]
 (https://github.com/DesignBySite)
 - [Dennis Knie] (https://github.com/DennisKnie)
+- [Jon Maldia] (https://github.com/jmaldia)
