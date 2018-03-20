@@ -43,7 +43,7 @@ header img {
 }
 
 header h1 {
-	font-size: 20px;
+	font-size: 20px!important;
 	font-family: 'Fredoka One', cursive;
 	color: #E64C42;
 	margin: 0;

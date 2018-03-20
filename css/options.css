@@ -1,9 +1,65 @@
 body {
-  width: 70%;
-  height: 500px;
+  width: 600px;
+  height: 900px;
+  max-width: 600px;
   margin: auto;
 }
 
-h1 {
-  color: green;
+.jumbotron {
+	background-color: #fff;
+	margin-top: 10%;
+	padding: 0;
+	border: 1px solid #dcdde1;
+	/*Box Shadow*/
+		-webkit-box-shadow: 0px 2px 18px 0px rgba(158,158,158,0.51);
+		-moz-box-shadow: 0px 2px 18px 0px rgba(158,158,158,0.51);
+		box-shadow: 0px 2px 18px 0px rgba(158,158,158,0.51);
+}
+
+header {
+}
+
+.main img {
+	width: 100%;
+}
+
+.main {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.lead {
+	margin: 0;
+	padding: 20px;
+	background-color: #FAFAFA;
+	border-bottom: 1px solid #dcdde1;
+	font-size: 14px;
+	color: #616161;
+}
+
+/*FORM*/
+.info {
+	padding: 0;
+	border-bottom: 1px solid #dcdde1;
+	padding: 22px;
+	text-align: center;
+	font-size: 26px;
+	color: #e74c3c;
+}
+
+.proteinInfoForm{
+	padding: 30px 50px;
+	font-size: 20px;
+	color: #2d3436;
+	border-bottom: 1px dotted #dcdde1;
+};
+
+.inputInfo {
+	display: inline-block;
+}
+
+#brand {
+	font-family: 'Fredoka One', cursive;
 }
