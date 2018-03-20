@@ -14,7 +14,8 @@
     <body class="bodyColor">
         <div id="container" class="jumbotron">
             <header>
-                <img src="img/icon2.png"><h1>Protein Tracker</h1>
+                <img src="img/icon2.png">
+                <h1>Protein Tracker</h1>
             </header>
 
             <div class="proteinStats goal">
@@ -24,16 +25,17 @@
                 <h3 id="t">Total: </h3><span id="total">0</span>
             </div>
                 
-            <div id="progressBar">
-              <div id="proteinIntake">
-                <p id="progressComplete">
-                </p>
+            <div id="progressBar" style="">
+              <div id="proteinIntakeContainer">
+                  <div id="proteinIntake">
               </div>
+              </div>
+                <p id="progressComplete"></p>
             </div>
 
             <div class="inputProtein">
                 <input id="amount" type="text" placeholder="Enter Amount" />
-                <input id="addAmount" class="button" type="submit" value="Add Protein" />   
+                <input id="addAmount" class="btn btn-outline-success" type="submit" value="Add Protein" />   
             </div>
         </div>
 
