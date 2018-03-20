@@ -1,30 +1,42 @@
 #progressBar
 {
-  position:absolute;
-  width: 62.7%;
-  bottom: 7.59%;
-  left:7.3%;
-  background-color: #ddd;
+  /*position:absolute;*/
+  /*width: 62.7%;*/
+  /*bottom: 7.59%;*/
+  /*left:7.3%;*/
+  background-color: #fff; /*#ddd;*/
+  border-bottom: 1px solid #dcdde1;
   visibility: visible;
+  height: 100%; 
+  width: 100%;
+  padding: 25px 20px 20px 20px;
+  text-align: center;
+}
+#proteinIntakeContainer {
+  background-color: #ddd;
 }
 #proteinIntake
 {
   width: 0%;
-  height: 3.5px;
-  background-color: #ded541;
+  /*height: 3.5px;*/
+  height: 5px;
+  background-color: #E64C42;
 }
 #progressComplete
 {
-  position: absolute;
+  /*position: absolute;*/
   width: auto;
   height: auto;
+  padding-top: 5px;
   left: 0%;
   right: auto;
   top:auto;
   bottom: 1%;
-  text-align: left;
+  text-align: center;
   margin: auto;
-  color: #DAA520;
+  color: #2d3436; /*#DAA520;*/
   z-index: 1;
-  font-size:11px;
+  font-size:14px;
+  font-weight: 600;
+  font-family: 'Arimo', sans-serif;
 }
