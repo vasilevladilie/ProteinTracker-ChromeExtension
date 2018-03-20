@@ -101,7 +101,9 @@ header h1 {
 }
 
 #addAmount {
-	border: 1px solid #27ae60;
-	color: #27ae60;
+	margin-bottom: 3px;
+	height: 42px;
+	border: 1px solid #28a745;
+	color: #28a745;
 	font-weight: 100;
 }

@@ -53,11 +53,16 @@
                 <div class="form-group row">
                     <label class="col-form-label col-md-4">Gender:</label>
                     <div class="form-group row col-md-8">
-                        <div class="col-form-label col-md-6">
-                            <input id="gendermale" type="radio" name="gender" value="male"/>Male
+                        <div class="form-group row col-md-6 genderRadio">
+                            <div class="col-md-2">
+                                <input id="gendermale" type="radio" name="gender" value="male"/></div>
+                            <div class="col-md-10">Male</div>
                         </div>
-                        <div class="col-form-label col-md-6">
-                            <input id="genderfemale" type="radio" name="gender" value="female"/>Female
+                        <div class="form-group row col-md-6 genderRadio">
+                            <div class="col-md-2">
+                                <input id="genderfemale" type="radio" name="gender" value="female"/>
+                            </div>
+                            <div class="col-md-10">Female</div>
                         </div>
                     </div>
                 </div>
@@ -65,14 +70,14 @@
             </div>
 
             <div class="proteinGoals form-group row">
-                <label for="goal" class="col-form-label col-md-4">Protein Goal per Day:</label>
-                <input id="goal" class="form-control col-md-8" aria-describedby="emailHelp" placeholder="Type your goal: protein in grams" type="text" />
+                <label for="goal" class="col-form-label col-md-5">Protein Goal per Day:</label>
+                <input id="goal" class="form-control col-md-7" aria-describedby="emailHelp" placeholder="Type your goal: protein in grams" type="text" />
             </div>
                 
                 <!-- <small id="emailHelp" class="form-text text-muted">Fullfill your daily dose of protein daily !</small> -->
             <!--col GOAL ends-->
 
-            <div class="form-group row ">
+            <div class="form-group row optionsButtons">
                 <input id="save" class="btn btn-outline-success" type="submit" value="Save" />
                 <input id="reset" class="btn btn-outline-danger" type="submit" value="Reset Total" />
             </div>
@@ -82,7 +87,7 @@
 
 
     <footer>
-        <p>Copyright (c) 2018 walk in progress</p>
+        <p>Copyright &copy; 2018 Walk in Progress</p>
     </footer>
 
 
