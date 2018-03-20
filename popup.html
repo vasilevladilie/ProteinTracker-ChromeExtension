@@ -2,26 +2,39 @@
 <html>
     <head>
       <!--mini PAGE with options for the extension-->
-        <img src="img/pop_up_photo.jpeg">
+        <!-- <img src="img/pop_up_photo.jpeg"> -->
         <title>Protein Tracker</title>
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
         <link rel="stylesheet" type="text/css" href="css/popup.css">
         <link rel="stylesheet" type="text/css" href="css/progressbar.css">
+
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css?family=Arimo|Fredoka+One" rel="stylesheet">
     </head>
     <body class="bodyColor">
         <div id="container" class="jumbotron">
-            <h1>Protein Tracker</h1>
-                <h3 id="g">Goal: <span id="goal">0</span></h3>
-                <h3 id="t">Total: <span id="total">0</span></h3>
+            <header>
+                <img src="img/icon2.png"><h1>Protein Tracker</h1>
+            </header>
+
+            <div class="proteinStats goal">
+                <h3 id="g">Goal: </h3> <span id="goal">0</span>
+            </div>
+            <div class="proteinStats total">
+                <h3 id="t">Total: </h3><span id="total">0</span>
+            </div>
+                
             <div id="progressBar">
               <div id="proteinIntake">
                 <p id="progressComplete">
                 </p>
               </div>
             </div>
-            <input id="amount" type="text" placeholder="Enter Amount" />
-            <input id="addAmount" class="button" type="submit" value="Add Protein" />
 
+            <div class="inputProtein">
+                <input id="amount" type="text" placeholder="Enter Amount" />
+                <input id="addAmount" class="button" type="submit" value="Add Protein" />   
+            </div>
         </div>
 
         <script src="js/jquery-3.3.1.min.js"></script>
