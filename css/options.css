@@ -16,11 +16,14 @@ body {
 		box-shadow: 0px 2px 18px 0px rgba(158,158,158,0.51);
 }
 
-header {
-}
-
-.main img {
+.main-img {
+	height: 300px;
 	width: 100%;
+	background-image: url('../img/peanuts.jpeg'); /*Regular Background*/
+	background-image: url('../img/easterEggs.jpeg'); /*Themed Background*/
+	background-position: center bottom;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .main {
@@ -101,4 +104,3 @@ footer {
 	font-size: 12px;
 	color: #cecece;
 }
-

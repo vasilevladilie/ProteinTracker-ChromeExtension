@@ -35,7 +35,7 @@ header {
 	border-bottom: 1px solid #dcdde1;
 }
 
-header img {
+header .logo {
 	width: 34px;
 	margin: 0;
 	padding: 0;
