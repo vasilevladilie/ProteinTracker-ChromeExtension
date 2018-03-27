@@ -10,7 +10,7 @@
 <img align="left" width="300" src="assets/optionsPart.jpg" alt="options page" />
 <img align="right" width="300" src="assets/popupPart.jpg" alt="popup page" />
 
-<img src="newGif.gif" width="800">
+<img src="chromeShow.gif" width="800">
 
 
 
