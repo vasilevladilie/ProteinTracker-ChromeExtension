@@ -1,47 +1,100 @@
 <!doctype html>
 <html>
 <!--actual WEB PAGE page for the extension-->
-    <head>
-        <title>Protein Tracker Options</title>
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-        <link rel="stylesheet" type="text/css" href="css/options.css">
-    </head>
-    <body>
+<head>
+    <title>Protein Tracker Options</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/popup.css">
+    <link rel="stylesheet" type="text/css" href="css/options.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Arimo|Fredoka+One" rel="stylesheet">
+</head>
+
+<body class="bodyColor">
 
 
-       <div class="jumbotron">
-        <img src="img/options_photo.jpeg">
-        <h1 class="display-4">Protein Tracker Options</h1>
-        <p class="lead">This is the protein tracker that you need in order to track your daily protein needs.</p>
+    <div class="jumbotron">
+        <header>
+            <img src="img/icon2.png">
+            <h1>Personal Protein Tracker</h1>
+        </header>
 
-        <hr class="my-4">
+        <section class="main">
+            <img src="img/peanuts.jpeg">
+            <p class="lead">
+                <strong id="brand">Protein Tracker</strong> lets you track your daily protein intake right from your browser.
+            </p>
+        </section>
 
         <form>
+            <h2 class="info">Personal Information</h2>
+            <div class="form-group proteinInfoForm">
+                <div class="form-group row">
+                    <label class="col-form-label col-md-4">Name:</label>
+                    <div class="col-md-8"><input id="p_name" class="form-control" type='text' placeholder="Your name"/></div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-form-label col-md-4">Age:</label>
+                    <div class="col-md-8"><input id="p_age" class="form-control" type='number' placeholder='Age'/></div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-form-label col-md-4">Height:</label>
+                    <div class="col-md-8"><input id="p_height" class="form-control" type='number' placeholder='Height'/></div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-form-label col-md-4">Weight:</label>
+                    <div class="col-md-8"><input id="p_weight" class="form-control" type='number' placeholder='Weight'></div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-form-label col-md-4">Meals Per Day:</label>
+                    <div class="col-md-8"><input id="mealsperday" class="form-control" type='number' placeholder='Meals per day'/></div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-form-label col-md-4">Gender:</label>
+                    <div class="form-group row col-md-8">
+                        <div class="form-group row col-md-6 genderRadio">
+                            <div class="col-md-2">
+                                <input id="gendermale" type="radio" name="gender" value="male"/></div>
+                            <div class="col-md-10">Male</div>
+                        </div>
+                        <div class="form-group row col-md-6 genderRadio">
+                            <div class="col-md-2">
+                                <input id="genderfemale" type="radio" name="gender" value="female"/>
+                            </div>
+                            <div class="col-md-10">Female</div>
+                        </div>
+                    </div>
+                </div>
 
-          <div class="form-group">
-            <label for="goal">Protein Goal per day</label>
+            </div>
 
-            <input type='text' value='YourName' id='prompt' disabled>
-            <input id="goal" class="form-control" aria-describedby="emailHelp" placeholder="type your goal protein in grams" type="text" />
-            <small id="emailHelp" class="form-text text-muted">Fullfill your daily dose of protein daily !</small>
-          </div><!--col GOAL ends-->
+            <div class="proteinGoals form-group row">
+                <label for="goal" class="col-form-label col-md-5">Protein Goal per Day:</label>
+                <input id="goal" class="form-control col-md-7" aria-describedby="emailHelp" placeholder="Type your goal: protein in grams" type="text" />
+            </div>
+                
+                <!-- <small id="emailHelp" class="form-text text-muted">Fullfill your daily dose of protein daily !</small> -->
+            <!--col GOAL ends-->
 
-          <div class="form-group">
-        <input id="save" class="button btn btn-outline-warning" type="submit" value="Save" />
-        <input id="reset" class="button btn btn-outline-danger" type="submit" value="Reset Total" />
-      </div><!--form group-->
-    </form>
-    </div><!--jumbotron-->
-
-
-        <footer>
-         <p>Copyright (c) 2018 walk in progress</p>
-         </footer>
+            <div class="form-group row optionsButtons">
+                <input id="save" class="btn btn-outline-success" type="submit" value="Save" />
+                <input id="reset" class="btn btn-outline-danger" type="submit" value="Reset Total" />
+            </div>
+            <!--form group-->
+        </form>
+    </div>
 
 
+    <footer>
+        <p>Copyright &copy; 2018 Walk in Progress</p>
+    </footer>
 
 
-         <script src="js/jquery-1.10.2.js"></script>
-         <script src="js/options.js"></script>
-    </body>
+
+
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/options.js"></script>
+</body>
+
 </html>
