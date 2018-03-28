@@ -24,6 +24,17 @@ body {
 	background-position: center bottom;
 	background-size: cover;
 	background-repeat: no-repeat;
+
+	/*THIS IS JUST FOR THE EASTER THEME*/
+	
+	padding-right: 24px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	font-size: 54px;
+	font-family: 'Chicle', cursive;
+	text-shadow: 2px 2px 3px #cecece;
+	color: #f53b57;
 }
 
 .main {
