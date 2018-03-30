@@ -1,9 +1,5 @@
-#container {
-	max-width:350px;
-	margin:20px;
-	text-align: center;
-}
-#t {
+
+/*#t {
   color:green;
 }
 #g{
@@ -13,4 +9,109 @@
 
 h1 {
   color:#17a2b8;
+}
+*/
+
+body {
+	background-color: #ecf0f1!important;
+}
+
+#container {
+	background-color: #ffffff;
+	margin: 0;
+	padding: 0;
+	border: 1px solid #f5f6fa;
+	border-radius: 3px;
+	width: 280px;
+	max-width:280px;
+	text-align: center;
+}
+
+header {
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 1px solid #dcdde1;
+}
+
+header .logo {
+	width: 34px;
+	margin: 0;
+	padding: 0;
+	padding-right: 10px;
+}
+
+header h1 {
+	font-size: 20px!important;
+	font-family: 'Fredoka One', cursive;
+	color: #E64C42;
+	margin: 0;
+	padding: 0;
+}
+
+/*Stats*/
+input {
+
+}
+
+.proteinStats {
+	display: flex;
+	justify-content: space-between;	
+	align-items: center;
+	padding: 15px 45px;
+	font-family: 'Arimo', sans-serif;
+}
+
+.proteinStats h3 {
+	padding-top: 8px;
+	color: #E64C42!important;
+	font-size: 30px
+}
+
+.proteinStats span {
+	color: #2d3436!important;
+	font-size: 40px;
+	font-weight: 700;
+}
+
+.goal {
+	flex-grow: 1;
+	border-bottom: 1px dotted #dcdde1;
+}
+
+.total {
+	flex-grow: 1;
+	border-bottom: 1px dotted #dcdde1;
+}
+
+/*Add Protein Input*/
+.inputProtein {
+	padding: 15px;
+}
+
+#amount, #addAmount {	
+	border-radius: 3px;
+	box-shadow: none;
+}
+
+#amount {
+	border: 1px solid #dcdde1;
+	width: 120px;
+	color: #dcdde1;
+	font-weight: 100;
+	text-align: center;
+	padding: 8px;
+}
+
+#addAmount {
+	margin-bottom: 3px;
+	height: 42px;
+	border: 1px solid #28a745;
+	color: #28a745;
+	font-weight: 100;
+}
+
+#addAmount:hover {
+	color: #fff;
 }

@@ -1,12 +1,18 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 [![Build status](https://ci.appveyor.com/api/projects/status/pjxh5g91jpbh7t84?svg=true)](https://ci.appveyor.com/project/tygerbytes/resourcefitness)
 <br/>
-<img aling="middle" width="300" src="ninja.png" alt="ninja" />
+<img align="middle" width="300" src="ninja.png" alt="ninja" />
 # chrome-extension
 
 ### This is a simple chrome extension.
 
-![screenshot](chrome.gif)
+## options page
+<img align="left" width="300" src="assets/optionsPart.jpg" alt="options page" />
+<img align="right" width="300" src="assets/popupPart.jpg" alt="popup page" />
+
+<img src="chromeShow.gif" width="800">
+
+
 
 ### For tutorial about how you can contribute to the project please read the:
 ### [contributeTUTORIAL.md](contributeTUTORIAL.md)
@@ -18,13 +24,13 @@ This will help the user to count daily protein that must be fullfiled.
 In order to test this chrome extension follow the steps below:
 
 ## #1: activate developer mode in extension tab
-<img aling="left" width="300" src="assets/developer.jpg" alt="clone this repository" />
+<img align="left" width="300" src="assets/developer.jpg" alt="clone this repository" />
 
 <br/>
 <br/>
 
 ## #2: add the project folder to extensions
-<img aling="left" width="300" src="assets/load.jpg" alt="clone this repository" />
+<img align="left" width="300" src="assets/load.jpg" alt="clone this repository" />
 <br/>
 <br/>
 
