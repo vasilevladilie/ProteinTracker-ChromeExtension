@@ -1,71 +1,94 @@
-/* Add a black background color to the top navigation */
-
-.topnav {
-    background-color: rgb(7, 90, 16);
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100%;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-
-/* Style the links inside the navigation bar */
-
-.topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-
-
-/* Change the color of links on hover */
-
-.topnav a:hover {
-    background-color: #ddd;
-    color: black;
-}
-
-
-/* Add a color to the active/current link */
-
-.topnav a.active {
-    background-color: rgb(108, 218, 111);
-    color: white;
-}
-
-.title {
-    font-size: 70px;
-    text-align: center;
-    color: rgb(21, 201, 75);
-    padding: 400px;
-}
-
-.title-bg {
-    /* The image used */
-    background-image: url("images/chanan-greenblatt-50120fitness-park-unsplash.jpg");
-    /* Full height */
+html {
+    
     height: 100%;
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    font-size: 14px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 1px;
 }
 
-.header {
-    font-size: 40px;
-    text-align: center;
-    color: rgb(21, 201, 75);
-    /* padding-top: 400px; */
+body {
+    height: 100%;
 }
 
-.header-about {
-    font-size: 20px;
-    color: rgb(21, 201, 75);
+a {
+    text-decoration-style: dotted;
+    color: #09324D;
+}
+
+a:hover {
+    color: #EFDDB2;
+}
+
+
+
+
+.logo {
+    width: 120px;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
 }
 
 .about {
-    background-color: lightgray;
+    width: 40%;
+    padding: 0 70px 0 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo, .about p, .about ul {
+    margin-bottom: 20px!important;
+}
+
+.protein-brand {
+    font-family: 'Fredoka One', cursive;
+}
+
+.about h3 {
+    margin-bottom: 10px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.about ul li {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.about h5 {
+    color: #999999;
+}
+
+.credits li {
+    margin-bottom: 0!important;
+}
+
+/*SCREENSHOT*/
+.screenshot {
+    width: 60%;
+    background-color: #09324D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.screenshot img {
+    width: 80%;
+    max-width: 1000px;
 }
