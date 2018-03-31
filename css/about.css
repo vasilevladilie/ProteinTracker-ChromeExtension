@@ -1,0 +1,71 @@
+/* Add a black background color to the top navigation */
+
+.topnav {
+    background-color: rgb(7, 90, 16);
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+/* Style the links inside the navigation bar */
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+/* Change the color of links on hover */
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+/* Add a color to the active/current link */
+
+.topnav a.active {
+    background-color: rgb(108, 218, 111);
+    color: white;
+}
+
+.title {
+    font-size: 70px;
+    text-align: center;
+    color: rgb(21, 201, 75);
+    padding: 400px;
+}
+
+.title-bg {
+    /* The image used */
+    background-image: url("images/chanan-greenblatt-50120fitness-park-unsplash.jpg");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    font-size: 40px;
+    text-align: center;
+    color: rgb(21, 201, 75);
+    /* padding-top: 400px; */
+}
+
+.header-about {
+    font-size: 20px;
+    color: rgb(21, 201, 75);
+}
+
+.about {
+    background-color: lightgray;
+}
