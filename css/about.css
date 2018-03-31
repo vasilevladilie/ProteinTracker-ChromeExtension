@@ -7,41 +7,52 @@ body
   width: 70%;
   height: 86%;
   margin:auto;
-  background-image: url("../img/easter_eggs_1.jpeg");
-  padding-top: 10%;
+  /*background-image: url("../img/easter_eggs_1.jpeg");*/
+  padding-top: 3%;
+  float:left;
+  margin-left: 3%;
 }
 .extension_name
 {
   color: #06314E;
   font-weight: bold;
+  font-size: 1.2em;
 }
 h2
 {
   margin-left: 40%;
-  color: #000000;
   font-weight: bold;
-  color:green;
+  color:#FFFFFF;
   font-family: 'Calligraffitti';
+  font-size: 2em;
 }
 p
 {
   margin-left: 5%;
   color: #000000;
   font-family: 'Cherry Swash';
+  color: #FFFFFF;
 }
 li
 {
   margin-left: 5%;
   color: #000000;
   font-family: 'Cherry Swash';
+  color: #FFFFFF;
+}
+a
+{
+    color: #FFFFFF;
+    font-style: normal;
+    text-decoration: none;
 }
 h3
 {
   margin-left: 5%;
-  color: #000000;
+  color:#FFFFFF;
   font-weight: bold;
-  color:green;
   font-family: 'Calligraffitti';
+  font-size: 1.8em;
 }
 .credits, .about
 {
@@ -49,8 +60,16 @@ h3
   background-color: hsl(0, 100%, 100%);
   background-color: hsla(0, 100%, 100%, 0.4);
   width: 80%;
-  margin-left: 9%;
   padding: 1%;
+}
+.credits > h2
+{
+  font-size: 2em;
+}
+
+.credits > li
+{
+  font-size: 1.8em;
 }
 .about
 {
