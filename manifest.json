@@ -10,11 +10,18 @@
 		"default_popup":"popup.html"
 	},
 
+	"file_system_provider_capabilities": {
+    "configurable": true,
+    "multiple_mounts": true,
+    "source": "network"
+  },
+
 	"options_page" : "options.html",
 
 		"background": {
 		"scripts" : ["js/eventPage.js", "js/progressbar.js"],
-		"persistent" : false
+		"persistent" : false,
+		"offline_enabled": true
 	},
 	"permissions" : [
 		"storage",
