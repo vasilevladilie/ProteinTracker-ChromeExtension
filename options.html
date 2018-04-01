@@ -4,26 +4,22 @@
 <head>
     <title>Protein Tracker Options</title>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-
+    <link rel="stylesheet" type="text/css" href="css/popup.css">
     <link rel="stylesheet" type="text/css" href="css/options.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Arimo|Fredoka+One|Chicle" rel="stylesheet">
 </head>
 
 <body class="bodyColor">
 
 
     <div class="jumbotron">
-        <img src="img/options_photo.jpeg">
-        <h1 class="display-4">Personal Protein Tracker</h1>
-        <p class="lead">This is the protein tracker that you need in order to track your daily protein needs.</p>
-
-
-
-    <div class="jumbotron">
         <header>
             <!-- REGULAR LOGO -->
-            <!-- <img src="img/icon2.png" class="logo"> --> 
+            <!-- <img src="img/icon2.png" class="logo"> -->
             <!-- THEMED LOGO -->
-            <img src="img/logoEaster.png" class="logo"> 
+            <img src="img/logoEaster.png" class="logo">
             <h1>Personal Protein Tracker</h1>
         </header>
 
@@ -78,13 +74,28 @@
 
             </div>
 
+            <div class="proteinGoals form-group row">
+                <label for="goal" class="col-form-label col-md-5">Protein Goal per Day:</label>
+                <input id="goal" class="form-control col-md-7" aria-describedby="emailHelp" placeholder="Type your goal: protein in grams" type="text" />
+            </div>
 
-    <!--jumbotron-->
+                <!-- <small id="emailHelp" class="form-text text-muted">Fullfill your daily dose of protein daily !</small> -->
+            <!--col GOAL ends-->
+
+            <div class="form-group row optionsButtons">
+                <input id="save" class="btn btn-outline-success" type="submit" value="Save" />
+                <input id="reset" class="btn btn-outline-danger" type="submit" value="Reset Total" />
+            </div>
+            <!--form group-->
+        </form>
+        <div class="about_page">
+          <a href="about.html">about us</a>
+        </div>
+    </div>
 
 
     <footer>
-        <p>Copyright (c) 2018 walk in progress</p>
-
+        <p>Copyright &copy; 2018 Walk in Progress</p>
     </footer>
 
 
